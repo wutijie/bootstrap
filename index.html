@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+	</head>
+
+	<body>
+		<header>
+			<div class="center">
+				<a href="javascript:;">Bootstrap中文网</a>
+				<a href="javascript:;">Bootstrap2中文文档</a>
+				<a href="javascript:;">Bootstrap3中文文档</a>
+				<a href="javascript:;">Bootstrap4中文文档</a>
+				<a href="javascript:;">Less 教程</a>
+				<a href="javascript:;">jQuery API</a>
+				<a href="javascript:;">网站实例</a>
+				<a href="javascript:;">Bootstrap训练营</a>
+				<a href="javascript:;">关于</a>
+			</div>
+		</header>
+		<nav>
+			<div class="bg_dv">
+				<div class="nv_dv center">
+					<h1>Bootstrap</h1>
+					<h2>简洁、直观、强悍的前端开发框架，让web开发更迅速、简单。</h2>
+					<p>Bootstrap3中文文档(v3.3.7)</p>
+					<p>
+						<a href="javascript:;">Bootstrap2中文文档(v2.3.2)</a>
+					</p>
+				</div>
+			</div>
+		</nav>
+		<section class="cen_one">
+			<p>
+				<a href="javascript:;"> Bootstrap问答社区</a>|
+				<a href="javascript:;"> 新浪微博：@Bootstrap中文网</a>
+			</p>
+		</section>
+		<section class="container cen_two">
+			<div class="top">
+				<h2>Bootstrap相关优质项目推荐</h2>
+				<p>这些项目或者是对Bootstrap进行了有益的补充，或者是基于Bootstrap开发的</p>
+			</div>
+			<div class="row" id="contex">
+				<!--<div class="col-lg-3 col-md-4 col-sm-6">
+					<div class="big">
+						<img src="img/01.png"/>
+						<div class="foot">
+							<h3>
+				                <a href="javascript:;">Bootstrap 编码规范</a><br>
+			                	<p class="p1">by @mdo</p>
+				            </h3>
+			                <p class="p2">Bootstrap 编码规范：编写灵活、稳定、高质量的 HTML 和 CSS 代码的规范。</p>
+						</div>
+					</div>
+				</div>-->
+			</div>
+		</section>
+		<script src="js/index.js"></script>
+		<script>
+			var contexts = new Boxdv("contex");
+			contexts.init(
+				"img/01.png",
+				"Bootstrap 编码规范",
+				"by @mdo",
+				"Bootstrap 编码规范：编写灵活、稳定、高质量的 HTML 和 CSS 代码的规范。"
+			);
+			var contexts2 = new Boxdv("contex");
+			contexts2.init(
+				"img/02.png",
+				"TypeScript",
+				"中文手册",
+				"TypeScript 是由微软开源的编程语言。它是 JavaScript 的一个超集，而且本质上向这个语言添加了可选的静态类型和基于类的面向对象编程。"
+			);
+			var contexts3 = new Boxdv("contex");
+			contexts3.init(
+				"img/03.png",
+				"Python14天入门视频教程",
+				"by 路飞学城",
+				"14天掌握进入人工智能、数据分析、爬虫、云计算、自动化运维、WEB开发等领域的必备语言。"
+			);
+			var contexts4 = new Boxdv("contex");
+			contexts4.init(
+				"img/04.png",
+				"React",
+				"用于构建用户界面的 JavaScript 框架",
+				"React 起源于 Facebook 的内部项目，是一个用于构建用户界面的 JavaScript 库。"
+			);
+			var contexts5 = new Boxdv("contex");
+			contexts5.init(
+				"img/05.png",
+				"Webpack",
+				"是前端资源模块化管理和打包工具",
+				"Webpack 是当下最热门的前端资源模块化管理和打包工具。它可以将许多松散的模块按照依赖和规则打包成符合生产环境部署的前端资源。"
+			);
+			var contexts6 = new Boxdv("contex");
+			contexts6.init(
+				"img/06.png",
+				"jQuery API",
+				"中文手册",
+				"根据最新的 jQuery 1.11.x 和 2.1.x 版本翻译的 jQuery API 中文文档/手册。"
+			);
+			var contexts7 = new Boxdv("contex");
+			contexts7.init(
+				"img/07.png",
+				"w3schools",
+				"原版国内镜像",
+				"w3schools.com 是最受欢迎的前端技术教程网站，但是国内用户一直不能访问，并且国内的中文翻译版本十分陈旧。因此做了个镜像，希望英文好的同学直接去看原版教程吧！"
+			);
+			var contexts8 = new Boxdv("contex");
+			contexts8.init(
+				"img/08.png",
+				"Preact",
+				"React 轻量替代方案。",
+				"Preact - 一个只有 3kB 大小的 React 替代品，拥有与 React 相同的 API、组件和虚拟 DOM。"
+			);
+			var contexts9 = new Boxdv("contex");
+			contexts9.init(
+				"img/09.png",
+				"Node.js",
+				"中文文档 / 手册",
+				"Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行环境。Node.js 使用了一个事件驱动、非阻塞式 I/O 的模型，使其轻量又高效。"
+			);
+			var contexts10 = new Boxdv("contex");
+			contexts10.init(
+				"img/10.png",
+				"Yarn",
+				"中文手册",
+				"Yarn 是一个快速、可靠、安全的依赖管理工具。是 NPM 的替代品。"
+			);
+			var contexts11 = new Boxdv("contex");
+			contexts11.init(
+				"img/11.png",
+				"NPM",
+				"中文手册",
+				"NPM（node package manager）是 Node.js 世界的包管理器。NPM 可以让 JavaScript 开发者在共享代码、复用代码以及更新共享的代码上更加方便。"
+			);
+			var contexts12 = new Boxdv("contex");
+			contexts12.init(
+				"img/12.png",
+				"Vue.js",
+				"中文手册",
+				"Vue.js - 是一套构建用户界面的渐进式框架。"
+			);
+			var contexts13 = new Boxdv("contex");
+			contexts13.init(
+				"img/13.png",
+				"Parcel",
+				"中文手册",
+				"Parcel - 极速、零配置的 web 应用打包工具。"
+			);
+			var contexts14 = new Boxdv("contex");
+			contexts14.init(
+				"img/14.png",
+				"Lodash",
+				"JavaScript 工具库",
+				"Lodash 是一个具有一致接口、模块化、高性能等特性的 JavaScript 工具库。比相同功能的 Underscore.js 使用更广泛。"
+			);
+			var contexts15 = new Boxdv("contex");
+			contexts15.init(
+				"img/15.png",
+				"Pro Git",
+				"Git 入门到专家指南",
+				"Pro Git 中文版（第二版）是一本详细的 Git 指南，主要介绍了 Git 的使用基础和原理，让你从 Git 初学者成为 Git 专家。"
+			);
+			var contexts16 = new Boxdv("contex");
+			contexts16.init(
+				"img/16.png",
+				"优站精选",
+				"Bootstrap 网站实例",
+				"Bootstrap 优站精选频道收集了众多基于 Bootstrap 构建、设计精美的、有创意的网站。"
+			);
+			var contexts17 = new Boxdv("contex");
+			contexts17.init(
+				"img/17.png",
+				"Rollup",
+				"新一代的 JavaScript 模块打包工具",
+				"Rollup 是一个 JavaScript 模块打包工具，可以将小块代码编译成大块复杂的代码。Rollup 对 JavaScript 代码模块使用新的 ES6 标准化格式，如 "
+			);
+			var contexts18 = new Boxdv("contex");
+			contexts18.init(
+				"img/18.png",
+				"Babel",
+				"是一个 JavaScript 编译器。",
+				"Babel 是一个 JavaScript 编译器。Babel 通过语法转换器支持最新版本的 JavaScript 语法。"
+			);
+			var contexts19 = new Boxdv("contex");
+			contexts19.init(
+				"img/19.png",
+				"Underscore.js",
+				"JavaScript 工具库",
+				"Underscore.js是一个 JavaScript 工具库，它提供了一整套函数式编程的实用功能，弥补了 jQuery 没有实现的功能，同时又是 Backbone 必不可少的部分。"
+			);
+			var contexts20 = new Boxdv("contex");
+			contexts20.init(
+				"img/20.png",
+				"gulp.js",
+				"基于流的自动化构建工具。",
+				"gulp.js - 基于流(stream)的自动化构建工具。Grunt 采用配置文件的方式执行任务，而 Gulp 一切都通过代码实现。"
+			);
+			var contexts21 = new Boxdv("contex");
+			contexts21.init(
+				"img/21.png",
+				"Grunt",
+				"项目构建工具",
+				"Grunt 是基于 Node.js 的项目构建工具。它可以自动运行你所设定的任务。Grunt 拥有数量庞大的插件，几乎任何你所要做的事情都可以用 Grunt 实现。"
+			);
+			var contexts22 = new Boxdv("contex");
+			contexts22.init(
+				"img/22.png",
+				"ESLint",
+				"JavaScript 代码检查工具",
+				"ESLint 是一个插件化并且可配置的 JavaScript 语法规则和代码风格的检查工具。ESLint 能够帮你轻松写出高质量的 JavaScript 代码。"
+			);
+			var contexts23 = new Boxdv("contex");
+			contexts23.init(
+				"img/23.png",
+				"Electron",
+				"用 WEB 技术开发桌面应用",
+				"Electron - 使用 JavaScript, HTML 和 CSS 构建跨平台的桌面应用。"
+			);
+			var contexts24 = new Boxdv("contex");
+			contexts24.init(
+				"img/24.png",
+				"Sass",
+				"最流行的 CSS 扩展语言解析器",
+				"Sass 是一个成熟、稳定、强大的 CSS 扩展语言解析器。"
+			);
+			var contexts25 = new Boxdv("contex");
+			contexts25.init(
+				"img/25.png",
+				"LESS",
+				"一种动态样式语言",
+				"LESS 为 CSS 赋予了动态语言的特性，如变量、继承、运算、函数。LESS 既可以在客户端上运行 (支持 IE 6+、Webkit、Firefox)，也可以借助 Node.js 或者 Rhino 在服务端运行。"
+			);
+			var contexts26 = new Boxdv("contex");
+			contexts26.init(
+				"img/26.png",
+				"Handlebars",
+				"一个书写高效率、语义化的模板引擎",
+				"Handlebars 是一个书写高效率、语义化的模板引擎，与 Mustache 模板兼容。"
+			);
+			var contexts27 = new Boxdv("contex");
+			contexts27.init(
+				"img/27.png",
+				"Stylus",
+				"CSS 预处理语言",
+				"Stylus - 富于表现力、健壮、功能丰富的 CSS 预处理语言。"
+			);
+			var contexts28 = new Boxdv("contex");
+			contexts28.init(
+				"img/28.png",
+				"BootCDN",
+				"开放 CDN 服务",
+				"Bootstrap 中文网联合又拍云存储共同推出了开放 CDN 服务 - BootCDN，我们对广泛的前端开源库提供了稳定的存储和带宽的支持，例如 Bootstrap、jQuery 等。"
+			);
+			var contexts29 = new Boxdv("contex");
+			contexts29.init(
+				"img/29.png",
+				"Pug",
+				"Node.js 模板引擎",
+				"Pug 是一款健壮、灵活、功能丰富的模板引擎，专门为 Node.js 平台开发。Pug 是由 Jade 改名而来。"
+			);
+			var contexts30 = new Boxdv("contex");
+			contexts30.init(
+				"img/30.png",
+				"Liquid",
+				"Jekyll 的模板语言。",
+				"Liquid - 最流行的模板语言。Jekyll、Github Pages 都在用。"
+			);
+			var contexts31 = new Boxdv("contex");
+			contexts31.init(
+				"img/31.png",
+				"Zepto.js",
+				"JavaScript 工具库",
+				"Zepto.js 是一个轻量级、兼容 jQuery 的 JavaScript 工具库。"
+			);
+			var contexts32 = new Boxdv("contex");
+			contexts32.init(
+				"img/32.png",
+				"EJS",
+				"中文文档",
+				"EJS 是一套简单的模板语言，帮你利用普通的 JavaScript 代码生成 HTML 页面。EJS 没有再造一套迭代和控制流语法，有的只是普通的 JavaScript 代码而已。"
+			);
+			var contexts33 = new Boxdv("contex");
+			contexts33.init(
+				"img/33.png",
+				"Tailwind CSS",
+				"中文文档",
+				"Tailwind CSS 是一个用于快速UI开发的实用工具集 CSS 框架。与 Bootstrap 、Foundation 不同，Tailwind CSS 没有内置的 UI 组件。完全需要开发者根据自身情况来定制设"
+			);
+			var contexts34 = new Boxdv("contex");
+			contexts34.init(
+				"img/34.png",
+				"Jekyll",
+				"中文文档",
+				"Jekyll 是一个静态站点生成工具。它将 Markdown （或者 Textile） 以及 Liquid 转化成一个完整的可发布的静态网站。"
+			);
+			var contexts35 = new Boxdv("contex");
+			contexts35.init(
+				"img/35.png",
+				"Hexo",
+				"中文文档",
+				"Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。"
+			);
+			var contexts36 = new Boxdv("contex");
+			contexts36.init(
+				"img/36.png",
+				"PostCSS",
+				"中文网",
+				"PostCSS 利用 JavaScript 的强大编程能力对 CSS 代码进行转换。数以百计的 PostCSS 插件可以用来为 CSS 属性添加特定于浏览器厂商的前缀、支持未来 CSS 语法、模块化、代码检测"
+			);
+			var contexts37 = new Boxdv("contex");
+			contexts37.init(
+				"img/37.png",
+				"Chart.js",
+				"开源的 HTML5 图表工具",
+				"Chart.js 是为设计和开发人员准备的简单、灵活的 JavaScript 图表工具。"
+			);
+			var contexts38 = new Boxdv("contex");
+			contexts38.init(
+				"img/38.png",
+				"WebAssembly",
+				"面向 web 应用的编译格式",
+				"WebAssembly 或者 wasm，是一种新型可移植，具有占用存储小，加载速度快等特点的面向 web 应用的编译格式。"
+			);
+			var contexts39 = new Boxdv("contex");
+			contexts39.init(
+				"img/39.png",
+				"stickUp",
+				"让页面元素“固定”位置",
+				"stickUp 能让页面目标元素“固定”在浏览器窗口的顶部，即便页面在滚动，目标元素仍然能出现在设定的位置。"
+			);
+			var contexts40 = new Boxdv("contex");
+			contexts40.init(
+				"img/40.png",
+				"Responsive Nav",
+				"响应式导航",
+				"响应式导航（Responsive Nav）是一个很小的JS插件，压缩之后仅有1.7KB，能帮你创建针对小屏幕的可切换式导航"
+			);
+			var contexts41 = new Boxdv("contex");
+			contexts41.init(
+				"img/41.png",
+				"Unslider",
+				"jQuery轮播插件",
+				"Unslider - 一个超小的 jQuery 轮播（slider） 插件。支持主流浏览器、键盘导航、自动调整高度和响应式布局。"
+			);
+			var contexts42 = new Boxdv("contex");
+			contexts42.init(
+				"img/42.png",
+				"Flat UI",
+				"Metro 风格的 Bootstrap",
+				"Flat UI 是基于 Bootstrap 做的 Metro 化改造，由Designmodo提供。Flat UI包含了很多Bootstrap提供的组件，但是外观更加漂亮。在此强烈推荐！"
+			);
+			var contexts43 = new Boxdv("contex");
+			contexts43.init(
+				"img/43.png",
+				"LayoutIt!",
+				"Bootstrap 可视化布局",
+				"LayoutIt! 可拖放排序在线编辑的Bootstrap可视化布局系统。由4wer同学汉化整理。"
+			);
+			var contexts44 = new Boxdv("contex");
+			contexts44.init(
+				"img/44.png",
+				"Bootstrap Switch",
+				"Bootstrap 开关组件",
+				"Bootstrap Switch 是对 Bootstrap 控件的扩充。基于选 HTML 中基本的选择框控件实现只有开和关两种状态的单选按钮。"
+			);
+			var contexts45 = new Boxdv("contex");
+			contexts45.init(
+				"img/45.png",
+				"Sco.js",
+				"Bootstrap 组件增强版",
+				"由于大部分的 Bootstrap js 插件是无法扩展的，因此才有了 sco.js，它是对 Bootsrap 中 js 插件的增强实现。"
+			);
+			var contexts46 = new Boxdv("contex");
+			contexts46.init(
+				"img/46.png",
+				"iCheck",
+				"增强复选框和单选按钮",
+				"iCheck 让不同浏览器下的复选框（checkboxes）和单选按钮（radio button）更美观、功能更强。"
+			);
+			var contexts47 = new Boxdv("contex");
+			contexts47.init(
+				"img/47.png",
+				"bootstrap-wysiwyg",
+				"为Bootstrap定制的可视编辑器",
+				"bootstrap-wysiwyg 是一个 jQuery Bootstrap 插件（5KB, 200 行代码）可以将任何一个 div 转变成一个 WYSIWYG 富文本编辑器。"
+			);
+			var contexts48 = new Boxdv("contex");
+			contexts48.init(
+				"img/48.png",
+				"Preboot",
+				"Bootstrap 的前世",
+				"Preboot 是一组用 less 语法书写的混合（mixin）和变量（variable）的集合，目的是辅助用户书写更优美的CSS。Bootstrap的前身就是Preboot。"
+			);
+			var contexts49 = new Boxdv("contex");
+			contexts49.init(
+				"img/49.png",
+				"jQuery.Pin",
+				"固定页面元素的 jQuery 插件",
+				"jQuery.Pin 能将任意页面元素“钉”在某个容器顶部，而且在尺寸小的屏幕上能够自动禁用这种效果。"
+			);
+			var contexts50 = new Boxdv("contex");
+			contexts50.init(
+				"img/50.png",
+				"Bsie",
+				"Bootstrap IE6 兼容方案",
+				"Bsie 弥补了 Bootstrap 对 IE6 的不兼容。目前，bsie 能在 IE6 上支持大部分 bootstrap 的特性，可惜，还有一些实在无法支持..."
+			);
+			var contexts51 = new Boxdv("contex");
+			contexts51.init(
+				"img/51.png",
+				"Messenger",
+				"非常酷的弹框(Alert)组件",
+				"Messenger 是一个非常酷的弹框(Alert)组件，能够非常好的与 Bootstrap 融合，当然，单独使用效果也是非常棒。Messenger 自带4套皮肤。"
+			);
+			var contexts52 = new Boxdv("contex");
+			contexts52.init(
+				"img/52.png",
+				"DateTime Picker",
+				"日期时间选择器",
+				"Bootstrap 日期时间选择器（Bootstrap DateTime Picker）是一个 Bootstrap 组件，能够简化页面上日期、时间的输入。"
+			);
+			var contexts53 = new Boxdv("contex");
+			contexts53.init(
+				"img/53.png",
+				"jQuery UI Bootstrap",
+				"用 Bootstrap 美化 jQuery UI",
+				"这套工具让你在使用 jQuery UI 控件时也能充分利用 Bootstrap 的样式，而且不会出现样式不统一的现象，Bootstrap 和 jQuery UI 可以完美融合在一起了！"
+			);
+			var contexts54 = new Boxdv("contex");
+			contexts54.init(
+				"img/54.png",
+				"Google Bootstrap",
+				"Google 风格的 Bootstrap",
+				"Google 的 UI 素来以简洁著称，现在 Bootstrap 也来 Google Style 一把，喜欢 Google 的就来试试这套 Google Bootstrap 吧！"
+			);
+			var contexts55 = new Boxdv("contex");
+			contexts55.init(
+				"img/55.png",
+				"Metro UI CSS",
+				"Bootstrap 与 Metro 融合",
+				"Metro UI CSS 是一套用来创建类似于 Windows 8 Metro UI 风格网站的样式。现在，Metro UI CSS 项目在 Bootstrap 的基础上被开发成一个独立的解决方案。"
+			);
+			var contexts56 = new Boxdv("contex");
+			contexts56.init(
+				"img/56.png",
+				"Font Awesome",
+				"Bootstrap 专用图标字体",
+				"Font Awesome 中包含的所有图标都是矢量的，也就可以任意缩放，避免了一个图标做多种尺寸的麻烦。CSS 对字体可以设置的样式也同样能够运用到这些图标上了。"
+			);
+			var contexts57 = new Boxdv("contex");
+			contexts57.init(
+				"img/57.png",
+				"Simple Icons",
+				"Icon汇",
+				"Simple Icons -- Icon汇。收集众多网站的 Logo，并提供高质量、不同尺寸的 png 格式图片给广大网友，所有 Icon 版权归其所属公司。"
+			);
+			var contexts58 = new Boxdv("contex");
+			contexts58.init(
+				"img/58.png",
+				"Bootstrap Form Builder",
+				"在线表单构造器",
+				"Bootstrap 在线表单构造器能够以鼠标拖拽的方式迅速生成一个基于 Bootstrap 的完整表单，减轻了各位码农手写HTML代码的劳动，而且不会出"
+			);
+			var contexts59 = new Boxdv("contex");
+			contexts59.init(
+				"img/59.png",
+				"HTML5 Boilerplate",
+				"专业的前端模版",
+				"HTML5 Boilerplate 是一套专业的前端模版，用以开发快速、健壮、适应性强的 app 或网站。"
+			);
+			var contexts60 = new Boxdv("contex");
+			contexts60.init(
+				"img/60.png",
+				"Web Safe Colors",
+				"Web 安全色",
+				"本表中列出的是 WEB 设计、开发中常用安全色。列于此是为了方便大家参考。"
+			);
+			var contexts61 = new Boxdv("contex");
+			contexts61.init(
+				"img/61.png",
+				"Bootstrap Docs",
+				"Bootstrap 文档全集",
+				"这里收集了 Bootstrap 从 V1.0.0 版本到现在，整个文档的历史。Bootstrap 本身就是一个传奇，而这些文档就是传奇的见证！"
+			);
+			var contexts62 = new Boxdv("contex");
+			contexts62.init(
+				"img/62.png",
+				"Git Guide",
+				"Git 简易指南",
+				"Git简易指南 -- 帮助你开始使用 git 的简易指南，木有高深内容，;)。"
+			);
+			var contexts63 = new Boxdv("contex");
+			contexts63.init(
+				"img/63.png",
+				"Grumble.js",
+				"气泡形状的提示（Tooltip）控件",
+				"一个气泡形状的提示（Tooltip）控件，可以在其围绕的元素周围做360度任意定位。"
+			);
+			var contexts64 = new Boxdv("contex");
+			contexts64.init(
+				"img/64.png",
+				"CIKONSS",
+				"纯 CSS 实现的 Icon",
+				"Cikonss 是纯 CSS 实现的响应式 Icon，兼容 IE8+。"
+			);
+			var contexts65 = new Boxdv("contex");
+			contexts65.init(
+				"img/65.png",
+				"Headroom.js",
+				"隐藏或展示页面元素",
+				"Headroom.js 是一个轻量级、纯 JavaScript 组件，用来隐藏或展现页面上的元素，为你的页面留下更多展示内容的空间。"
+			);
+			var contexts66 = new Boxdv("contex");
+			contexts66.init(
+				"img/66.png",
+				"Buttons",
+				"CSS 按钮样式库",
+				"Buttons 是一个基于 Sass 和 Compass 构建的CSS按钮（button）样式库，图标采用的是Font Awesome，可以和 Bootstrap 融合使用。"
+			);
+		</script>
+		<footer>
+			<div class="fo_big">
+				<div class="col-md-6 col-lg-6">
+					<h4>
+			        	<img src="https://static.bootcss.com/www/assets/img/logo.png?1521043936197">
+			        </h4>
+					<p>我们一直致力于为广大开发者提供更多的优质技术文档和辅助开发工具！</p>
+				</div>
+				<div class="col-md-6  col-lg-5 col-lg-offset-1">
+					<div class="row about">
+						<div class="col-sm-3">
+							<h4>关于</h4>
+							<ul class="list-unstyled">
+								<li>
+									<a href="javascript:;">关于我们</a>
+								</li>
+								<li>
+									<a href="javascript:;">广告合作</a>
+								</li>
+								<li>
+									<a href="javascript:;">友情链接</a>
+								</li>
+								<li>
+									<a href="javascript:;">招聘</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-sm-3">
+							<h4>联系方式</h4>
+							<ul class="list-unstyled">
+								<li>
+									<a href="javascript:;">新浪微博</a>
+								</li>
+								<li>
+									<a href="javascript:;">电子邮件</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-sm-4">
+							<h4>旗下网站</h4>
+							<ul class="list-unstyled">
+								<li>
+									<a href="javascript:;">Laravel中文网</a>
+								</li>
+								<li>
+									<a href="javascript:;">Ghost中国</a>
+								</li>
+								<li>
+									<a href="javascript:;">BootCDN</a>
+								</li>
+								<li>
+									<a href="javascript:;">Packagist中国镜像</a>
+								</li>
+								<li>
+									<a href="javascript:;">燃腾教育</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-sm-2">
+							<h4>赞助商</h4>
+							<ul class="list-unstyled">
+								<li>
+									<a href="javascript:;">又拍云</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="row row_t">
+					<ul class="list-inline text-center">
+						<li>
+							<a href="javascript:;">京ICP备11008151号</a>
+						</li>
+						|
+						<li>京公网安备11010802014853</li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+
+		<script src="js/jquery-3.1.0.js"></script>
+		<script src="js/bootstrap.js"></script>
+	</body>
+
+</html>
